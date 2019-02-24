@@ -1,0 +1,46 @@
+.page-template-page-committee {
+
+}
+
+.page-template-page-committee main {
+	margin: 0;
+}
+
+.dsa-committee-header {
+	background-color: var(--dsa-red);
+	padding-bottom: var(--dsa-menu-padding);
+}
+
+.dsa-committee-header h1 {
+	margin-top: 0;
+	text-align: center;
+}
+
+.dsa-committee-header ul {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	list-style-type: none;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+.dsa-committee-header li {
+	background-color: var(--dsa-white);
+	border: 2px solid var(--dsa-black);
+	padding: var(--dsa-menu-padding);
+	text-align: center;
+}
+
+.dsa-committee-header h2 {
+	color: var(--dsa-red);
+	margin: 0;
+}
+
+.dsa-committee-header a,
+.dsa-committee-header a:active,
+.dsa-committee-header a:hover,
+.dsa-committee-header a:visited {
+	color: var(--dsa-black);
+}

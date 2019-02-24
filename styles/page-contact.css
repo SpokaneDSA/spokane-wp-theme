@@ -1,0 +1,17 @@
+.page-template-page-contact {
+
+}
+
+.wpcf7 .row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+}
+
+.wpcf7 label {
+	width: 100%;
+}
+
+.wpcf7-form-control-wrap {
+	display: block;
+}

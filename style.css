@@ -1,0 +1,25 @@
+/*
+Theme Name: Spokane DSA
+Theme URI: https://github.com/SpokaneDSA/spokanedsa
+Author: Dan Siddoway <dsiddy@dsaspokane.org>
+Author URI: https://www.blacksuncollective.net
+Description: A WordPress theme for the Spokane Democratic Socialists of America.
+Version: 0.0.1
+License: GPL-3.0-only
+License URI: https://www.gnu.org/licenses/gpl-3.0-standalone.html
+Text Domain: spokanedsa
+*/
+
+@import 'styles/_reset.css';
+
+@import 'styles/_global.css';
+
+@import 'styles/_menus.css';
+
+@import 'styles/404.css';
+@import 'styles/footer.css';
+@import 'styles/front-page.css';
+@import 'styles/header.css';
+@import 'styles/page-bylaws.css';
+@import 'styles/page-committee.css';
+@import 'styles/page-contact.css';

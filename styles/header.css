@@ -1,0 +1,15 @@
+#dsa-page-header {
+	align-items: center;
+	background-color: var(--dsa-red);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	/* justify-content: space-between; */
+}
+
+#dsa-site-icon {
+	display: inline-block;
+	margin: 0 var(--dsa-menu-padding);
+	/* TODO(dsiddy): Remove this magic number. */
+	max-height: 64px;
+}

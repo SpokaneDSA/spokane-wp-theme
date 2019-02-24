@@ -1,0 +1,25 @@
+#dsa-page-footer {
+	/* background-color: var(--dsa-red); */
+	background-color: var(--dsa-black);
+	color: var(--dsa-white);
+	padding: var(--dsa-menu-padding) 0;
+}
+
+/* #dsa-page-footer a,
+#dsa-page-footer a:visited {
+	color: var(--dsa-white);
+} */
+
+.dsa-social {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	list-style-type: none;
+	margin-top: 0;
+	padding: 0;
+}
+
+.dsa-copyright {
+	text-align: center;
+}

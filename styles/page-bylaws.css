@@ -1,0 +1,17 @@
+.page-template-page-bylaws article {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+}
+
+.page-template-page-bylaws article a,
+.page-template-page-bylaws article a:active,
+.page-template-page-bylaws article a:hover,
+.page-template-page-bylaws article a:visited {
+	color: var(--dsa-black);
+}
+
+.dsa-outline ul {
+	position: sticky;
+	/* TODO(dsiddy): Consider making it 115px and setting `position: fixed;` on the header. We're thinking about pinning the header anyway. */
+	top: 80px;
+}

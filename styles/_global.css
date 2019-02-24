@@ -1,0 +1,30 @@
+@import '_colors.css';
+@import '_dimensions.css';
+@import '_fonts.css';
+
+body {
+	font-family: 'ManifoldDSA', sans-serif;
+	color: var(--dsa-black);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong,
+b {
+	font-family: 'ManifoldDSA-Bold', sans-serif;
+}
+
+main {
+	margin: 0 var(--dsa-main-padding);
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+	color: var(--dsa-white);
+}
